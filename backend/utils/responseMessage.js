@@ -1,0 +1,38 @@
+const responseMsg = {
+    // All fields are required
+    All_FIELDS_REQUIRED: "Please provide name, email and password!",
+    USER_ALREADY_EXISTS: "User already exists with this email!",
+    USER_CREATED_SUCCESSFULLY: "User created successfully",
+    USER_NOT_FOUND: "User not found",
+    INVALID_ID: "Invalid id",
+    TOKEN_EXPIRED: "Token is expired",
+    EMAIL_VERIFIED: "Email verified successfully",
+    EMAIL_PASSWORD_ARE_REQUIRED: "Email & Password required",
+    USER_NOT_REGISTERE: "User not register",
+    CONTACT_TO_ADMIN: "Contact to Admin",
+    INVALID_PASSWORD: "Invalid Password",
+    LOGGED_IN_SUCCESSFULLY: "Login successfully",
+    LOGOUT_SUCCESSFULLY: "Logout successfully",
+    INVALID_EMAIL: "Invalid Email",
+    PROIDE_TOKEN: "Provide the token",
+    INVALID_TOKEN: "Invalid Token",
+    UNAUTHORIZED_ACCESS: "Unauthorized access",
+    NEW_ACCESS_TOKEN_GENERATED:"New Access Token Generated",
+    UPLOAD_SUCCESSFULL: "Image upload successfully",
+    USER_UPDATE_SUCCESSFULLY: "User details updated successfully.",
+    CHECK_YOUR_EMAIL: "Check your email.",
+    PROVIDE_REQUIRED_FIELDS: 'Provided require fields emain & otp.',
+    PROVIDE_REQUIRED_REST_FIELDS: 'Provided requireD fields email, newPassword and confirmPassword',
+    OTP_EXPIRED: "Otp expired.",
+    OTP_NOT_MATCHED: "Invalid OTP.",
+    OTP_VERIFIED: "Otp successfully verified",
+    FORGOT_PASSWORD_SUCCESSFULLY: "Password reset link sent to your email",
+    RESET_PASSWORD_SUCCESSFULLY: "Password reset successfully",
+    RESET_PASSWORD_EXPIRED: "Password reset link expired",
+    RESET_PASSWORD_REQUIRED: "Password reset link required",
+    PASSWORD_NOT_MATCHED:"New password and confirm password not matched",
+    PASSWORD_RESET_SUCCESSFULLY:"Password reset the successfully",
+
+};
+
+export default responseMsg;
